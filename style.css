@@ -1,0 +1,232 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* nav bar */
+nav {
+  background-color: rgb(254, 150, 167);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav img {
+  width: 8%;
+  height: 8%;
+  border-radius: 100%;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  list-style: none;
+}
+
+li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#home {
+  background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836);
+  height: 100vh;
+  background-size: cover;
+  /* 
+  /* padding-top: 25%;
+  padding-right: 0%;
+  padding-left: 30%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-attachment: fixed;
+  gap: 10px;
+}
+
+#home h1 {
+  font-size: xx-large;
+  color: white;
+}
+
+#home p {
+  color: white;
+  font-size: x-large;
+}
+
+#home button {
+  border-radius: 50px;
+  width: 250px;
+  background-color: #fe96a7;
+  FONT-SIZE: 25PX;
+  FONT-WEIGHT: 700;
+  COLOR: WHITE;
+  HEIGHT: 50PX;
+  border: none;
+}
+
+#about h3 {
+  color: #fe96a7;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+#about p {
+  color: rgb(61, 61, 61);
+  line-height: 20px;
+}
+
+#about {
+  padding: 5%;
+  text-align: center;
+}
+
+/* section */
+#menu {
+  background-color: #ff92be;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#menu h2,
+#gallery h2 {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: repeat(3, 25%);
+  gap: 50px;
+  justify-content: center;
+  grid-template-rows: auto;
+}
+
+.menu div img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+
+}
+
+.menu div {
+  background-color: white;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#gallery {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #ffebf5;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 20% 13% 20% 13%;
+  gap: 50px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.images img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* feed-back */
+
+#reviews {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#reviews h3 {
+  color: #ff4b93;
+  text-align: center;
+  font-weight: lighter;
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.reviews {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.name {
+  background-color: #ff4b93;
+  color: white;
+  padding: 16px;
+  margin-top: 16px;
+}
+
+.reviews p {
+  font-size: 20px;
+}
+
+#Booknow {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #ff9dc6;
+}
+
+#Booknow h3 {
+  display: flex;
+  justify-content: center;
+  color: #ff0066;
+}
+
+.mmm {
+  background-color: rgb(254, 254, 254);
+  padding:90px;
+  border-radius: 10px;
+}
+
+#Booknow button {
+  background-color: #ff4b93;
+  color: aliceblue;
+  border-radius:30px;
+  display: flex;
+  justify-content: center;
+  border: none;
+    FONT-SIZE: 15PX;
+  FONT-WEIGHT: 700;
+  text-align: center;
+  padding:10px;
+
+}
+.lkl{
+  background-color: #ff3d8a;
+display: flex;
+justify-content: center;
+color: white;
+text-align: center;
+}
+
+input{
+  width:100%;
+  border-radius:5px;
+  border:1px solid gray;
+  padding: 4px;
+}
+section{
+  width:100%;
+  height:100%;
+}
